@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  background-color: rgb(243, 177, 54);
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 24px;
+    max-width: 24px;
+    margin: 0 auto;
+    padding: 0 4px;
+    color: rgb(5, 5, 5);
+    flex-direction:row; /* Ensure items are aligned horizontally */
+    font:uppercase;
+    padding-top: 24px;
+  }
+  .flex-hidden {
+    display: none;
+  }
+  .navLink {
+    text-transform: uppercase;
+  }
+  
+  
